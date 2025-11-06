@@ -16,7 +16,6 @@ public class SiakadWhile13 {
             }
             if (score > 80 && score <= 100) {
                 System.out.println("Student-" + (i + 1) + " grade: A");
-                System.out.println("Good job! Keep up the great work!");
             } else if (score > 73 && score <= 80) {
                 System.out.println("Student-" + (i + 1) + " grade: B+");
             } else if (score > 65 && score <= 73) {
@@ -29,7 +28,7 @@ public class SiakadWhile13 {
                 System.out.println("Student-" + (i + 1) + " grade: D");
             } else {
                 System.out.println("Student-" + (i + 1) + " grade: E");
-            }
+            } 
             i++;
             }
             sc.close();
